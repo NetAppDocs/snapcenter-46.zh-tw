@@ -6858,7 +6858,7 @@
 <p class="page-details">
   
     
-    <time datetime="2022-08-25 12:28:14 +0000">08/25/2022</time>
+    <time datetime="2022-11-24 09:30:50 +0000">11/24/2022</time>
     
   
 
@@ -6921,22 +6921,25 @@
 <div class="ulist">
 <ul>
 <li>
-<p>「安全登入角色create -role rose_Name -cmd dirname「cluster identity modify」-vserver Cluster_name或cluster名稱-access all」</p>
+<p><code>security login role create -vserver Cluster_name or cluster_name -role Role_Name -cmddirname "metrocluster show" -access readonly</code></p>
 </li>
 <li>
-<p>「安全性登入角色create -role rose_Name -cmd目錄名稱「cluster identity show」-vserver Cluster_name -access all」</p>
+<p><code>security login role create -vserver Cluster_name or cluster_name -role Role_Name -cmddirname "cluster identity modify" -access all</code></p>
 </li>
 <li>
-<p>「安全登入角色create -role rose_Name -cmd dirname "cluster modify"-vserver Cluster_name -access all"</p>
+<p><code>security login role create -vserver Cluster_name -role Role_Name -cmddirname "cluster identity show" -access all</code></p>
 </li>
 <li>
-<p>「安全性登入角色create -role rose_Name -cmd目錄名稱「cluster peer show」-vserver Cluster_name -access all」</p>
+<p><code>security login role create -vserver Cluster_name -role Role_Name -cmddirname "cluster modify" -access all</code></p>
 </li>
 <li>
-<p>「安全登入角色create -role rose_Name -cmd dirname "cluster show"-vserver Cluster_name -access all"</p>
+<p><code>security login role create -vserver Cluster_name -role Role_Name -cmddirname "cluster peer show" -access all</code></p>
 </li>
 <li>
-<p>「安全登入角色create -role role_Name -cmd dirname "EVENT generate-autosup-log"-vserver Cluster_name -access all"</p>
+<p><code>security login role create -vserver Cluster_name -role Role_Name -cmddirname "cluster show" -access all</code></p>
+</li>
+<li>
+<p><code>security login role create -vserver Cluster_name -role Role_Name -cmddirname "event generate-autosupport-log" -access all</code></p>
 </li>
 <li>
 <p>「安全登入角色create -vserver Cluster_name -role rose_Name -cmd目錄名稱「jobhistory show」-access all」</p>
@@ -7026,10 +7029,10 @@
 <p>「安全性登入角色create -vserver Cluster_name -role rose_Name -cmd dirname「安全性登入」-access readonly」</p>
 </li>
 <li>
-<p>「安全登入角色create -role rose_Name -cmd目錄名稱"SnapMirror cree"-vserver Cluster_name -access all"</p>
+<p><code>security login role create -vserver Cluster_name -role Role_Name -cmddirname "snapmirror create" -access all</code></p>
 </li>
 <li>
-<p>「安全登入角色create -role rose_Name -cmd目錄名稱"SnapMirror list-destinations"-vserver Cluster_name -access all"</p>
+<p><code>security login role create -vserver Cluster_name -role Role_Name -cmddirname "snapmirror list-destinations" -access all</code></p>
 </li>
 <li>
 <p>「安全性登入角色create -vserver Cluster_name -role rose_Name -cmd dirname「SnapMirror原則附加規則」-access all」</p>
