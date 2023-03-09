@@ -7795,4 +7795,8 @@
   <block id="4574736625a206c36aa88ccb73fced3e" category="list-text"><block ref="9968070f531307f6dc7d65233ad2073f" prefix="" category="inline-code"></block></block>
   <block id="0d51371cbb850772d2130a36f4368df4" category="paragraph">展示MetroCluster</block>
   <block id="cab00f169fcfeb601710dd89ecbfedf0" category="admonition">您應將保留計數設為2或更高。保留計數的最小值為2。</block>
+  <block id="04f76259e3406e39f106d09b85354906" category="inline-link">Exchange備份僅將一半快照保留在Vault目的地記錄磁碟區上SnapCenter</block>
+  <block id="cd4ebcda1969773f0f41ef98c13dc3d5" category="admonition">處理Exchange磁碟區（LUN）時、請為記錄和資料庫建立個別的資料保存原則、並使用相同的標籤、將記錄原則的保留（保留）設定為每個標籤的兩倍數量作為資料庫原則。如需詳細資訊、請參閱：<block ref="069d987d34ba2a5b3f4862b42bb7f849" category="inline-link-rx"></block>。</block>
+  <block id="e8db8241188813a9c299f2730ff21c40" category="admonition">還原控制檔時、請確定目錄結構存在、或是應以正確的使用者和群組擁有者（如果有）建立、以允許還原程序將檔案複製到目標位置。如果目錄不存在、還原工作將會失敗。</block>
+  <block id="3a6eb59ee064b09b020c1a87c5de4988" category="admonition">不支援IBM Java。</block>
 </blocks>
