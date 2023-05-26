@@ -74,4 +74,5 @@ NOTE: 您可以手動將新的複製掛載點登錄至autofs子系統。新的�
 * 您應該在/etc/lvm/lvm.conf中設定use_lvmetad = 0的值、然後停止LVM2-lvmetad服務、以便在Oracle Linux 7或更新版本、或Red Hat Enterprise Linux（RHEL）7或更新版本的儲存區域網路（SAN）環境中成功執行複製。
 * 如果您使用Oracle資料庫11.2.0.3或更新版本、且輔助執行個體的資料庫ID已使用NID指令碼變更、則應安裝13366202 Oracle修補程式。
 * 您應確保託管磁碟區的集合體應位於儲存虛擬機器（SVM）的指派集合體清單中。
+* 您應確保 LUN 未使用由混合式傳輸協定 iSCSI 和 FC 組成的 iGroup 、對應至 AIX 主機。如需詳細資訊、請參閱 https://kb.netapp.com/mgmt/SnapCenter/SnapCenter_Plug-in_for_Oracle_operations_fail_with_error_Unable_to_discover_the_device_for_LUN_LUN_PATH["作業失敗、錯誤無法探索 LUN 的裝置"^]。
 
