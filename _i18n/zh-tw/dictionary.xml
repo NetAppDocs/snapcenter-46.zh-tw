@@ -4442,8 +4442,6 @@
   <block id="35602ea96136092b8b885fe1ef749873" category="list-text">確認已填入端點、識別項和簽名欄位。</block>
   <block id="907fe6bfcd498fe3e561f7fb3ee67c89" category="paragraph">也可使用REST API來啟用「支援MFA」功能。SnapCenter</block>
   <block id="1958e9c22cb352dba19d476e05b4a53b" category="paragraph">啟用、更新或停用SnapCenter 完效益管理系統中的MFA設定後、請關閉所有瀏覽器索引標籤、然後重新開啟瀏覽器以重新登入。這將清除現有或作用中的工作階段Cookie。</block>
-  <block id="442ed19a31ac1f651ba7bf07effe122c" category="inline-link-macro">在多個索引標籤中登入顯示MFA錯誤SnapCenter</block>
-  <block id="b07f8a55d09983494694fca31fee6b35" category="paragraph">如需疑難排解資訊、請參閱 <block ref="46642a8ad62fd1a061e94d6b7bf62dc5" category="inline-link-macro-rx"></block></block>
   <block id="aeb89440d41f10fd9cc43ab75d800138" category="section-title">更新AD FS MFA中繼資料</block>
   <block id="19b3ff63dd3f3b6c1e3e48e8b3be6141" category="paragraph">只要AD FS伺服器有任何修改、例如升級、CA憑證續約、DR等、您就應該更新SnapCenter 位於支援區的AD FS MFA中繼資料。</block>
   <block id="2a18eff05051b9c720a786193ade4742" category="list-text">將下載的檔案複製SnapCenter 到「伺服器」以更新MFA組態。</block>
@@ -7801,4 +7799,6 @@
   <block id="3a6eb59ee064b09b020c1a87c5de4988" category="admonition">不支援IBM Java。</block>
   <block id="46d55a8aefdec15a8ce44087c8123826" category="inline-link">作業失敗、錯誤無法探索 LUN 的裝置</block>
   <block id="24642a08e354f43168ca4f1178850f84" category="list-text">您應確保 LUN 未使用由混合式傳輸協定 iSCSI 和 FC 組成的 iGroup 、對應至 AIX 主機。如需詳細資訊、請參閱<block ref="94f247529a6b6f563b3a8d4772877431" category="inline-link-rx"></block>。</block>
+  <block id="e4d919fee3d32117fafed951c3cdbfe5" category="inline-link">在多個索引標籤中登入 SnapCenter 會顯示 MFA 錯誤</block>
+  <block id="3954e6d000a63f90d0486b1a391b0efd" category="paragraph">如需疑難排解資訊、請參閱<block ref="75a1f4f9379e192498c16a8577967f33" category="inline-link-rx"></block></block>
 </blocks>
