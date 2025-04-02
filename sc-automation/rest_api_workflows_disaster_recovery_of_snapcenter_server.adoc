@@ -102,4 +102,4 @@ NOTE: 您必須提供備份名稱和必須儲存災難恢復備份的目標路�
 貼文
 
 |===
-如需詳細資訊、請參閱 https://www.youtube.com/watch?v=Nbr_wm9Cnd4&list=PLdXI3bZJEw7nofM6lN44eOe4aOSoryckg["災難恢復API"^] 影片：
+如需詳細資訊，請參閱 https://www.youtube.com/watch?v=_8NG-tTGy8k&list=PLdXI3bZJEw7nofM6lN44eOe4aOSoryckg["災難恢復API"^]影片。

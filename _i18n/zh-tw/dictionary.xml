@@ -3638,7 +3638,6 @@
   <block id="9aa96933bdaa05ec27830a1517e54f9a" category="paragraph">啟用或停用儲存災難恢復</block>
   <block id="9bb6ced642f1be37b6ad58e85292fffa" category="paragraph">/4.5/dissterrecovery /儲存設備</block>
   <block id="27e7993c4841ae5fd670cdd945ccb96d" category="inline-link">災難恢復API</block>
-  <block id="90840bc3d6109c892e0f709274fdc6b6" category="paragraph">如需詳細資訊、請參閱<block ref="af818973dd6acaf1e28a3bd4ca9bd4a5" category="inline-link-rx"></block> 影片：</block>
   <block id="88fe5dc687615e8d7a6594570ed65df2" category="summary">說明如何使用REST API來執行多SnapCenter 項功能完善的管理作業。REST API會透過Swagger網頁公開。</block>
   <block id="b1cb2610ec57bfba865feaa69174b692" category="paragraph">REST API可用於執行多SnapCenter 項功能完善的管理作業。REST API會透過Swagger網頁公開。</block>
   <block id="dcddc43fec5e5fa500cf485861b6ccfe" category="paragraph">您可以存取Swagger網頁、網址為：_https://&lt;SnapCenter_IP_address_or_name&gt;:&lt;SnapCenter_port&gt;/swagger/_、以顯示REST API文件、以及手動發出API呼叫。</block>
@@ -6834,7 +6833,6 @@
   <block id="f367d650e57088caf7b808e01235016d" category="inline-link">如何使用SnapCenter NetApp從SMBR的二線儲存設備還原</block>
   <block id="41b4c689a8b0e3ba8bfecb2a1e608e46" category="list-text"><block ref="41b4c689a8b0e3ba8bfecb2a1e608e46" category="inline-link-rx"></block></block>
   <block id="f004280f6db6ea5f9302c9851388d751" category="inline-link">使用SMBR從SnapVault 功能中還原Microsoft Exchange郵件</block>
-  <block id="1b0fb59a5bc951f7dc82cb43fe362145" category="list-text"><block ref="00a76af185a73b84e54e96058031aef5" category="inline-link-rx"></block></block>
   <block id="674953c87c49e4db065662bf6aeeaf35" category="summary">您可以使用SnapCenter 支援功能、在SQL Server資源上執行不同類型的還原作業。</block>
   <block id="9aee52333803867b36faef87e9cf417d" category="doc">還原作業類型</block>
   <block id="516f3ba2356fc63418504ca4271a18ef" category="paragraph">在下列情況下、您可以還原至分鐘或還原至先前的時間點：</block>
@@ -7807,4 +7805,6 @@ NetApp ® 單一信箱恢復已於 2023 年 5 月 12 日結束可用度（ EOA �
   <block id="832ab315e74cc6d95c21009b0c52cb2b" category="sidebar">命令參考指南</block>
   <block id="cd04e5d32cbb18b14141238ca9a7ea20" category="sidebar">先前版本SnapCenter 的不適用資料</block>
   <block id="66bdd10c104f52b4f8519b652bc8e084" category="sidebar">NetApp知識庫SnapCenter</block>
+  <block id="c23d56866a5b11fd0d8dc189fcf21298" category="list-text"><block ref="341e3fddad4b27511133b6917a75bb8a" category="inline-link-rx"></block></block>
+  <block id="86ea794e2d7fcff39be7476200e06b51" category="paragraph">如需詳細資訊，請參閱<block ref="a62945bfb4dadbe324d9f8ad560f4a1c" category="inline-link-rx"></block>影片。</block>
 </blocks>
